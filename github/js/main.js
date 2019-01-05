@@ -10,8 +10,8 @@ $(document).ready(function(){
     var lastSlide = slide_video;
     var order = ['video', 'about', 'projects'];
 
-	video.prop('src', 'mp4/Your_name.mp4');
-	video.load();
+	var myVideo = document.getElementById("videoPlayer");
+	myVideo.play();
 	$(".burger_wrapper").on("click", function(){
 		if( $(this).hasClass("active") )
 			$(this).removeClass("active");
