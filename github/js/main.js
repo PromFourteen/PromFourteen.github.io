@@ -9,6 +9,8 @@ $(document).ready(function(){
     var player;
     var lastSlide = slide_video;
     var order = ['video', 'about', 'projects'];
+	
+	video.load();
 
 	$(".burger_wrapper").on("click", function(){
 		if( $(this).hasClass("active") )
