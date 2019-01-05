@@ -10,8 +10,6 @@ $(document).ready(function(){
     var lastSlide = slide_video;
     var order = ['video', 'about', 'projects'];
 
-	var myVideo = document.getElementById("videoPlayer");
-	myVideo.play();
 	$(".burger_wrapper").on("click", function(){
 		if( $(this).hasClass("active") )
 			$(this).removeClass("active");
@@ -255,9 +253,10 @@ $(document).ready(function(){
 
 });
 
-//burgDelay();
+var myVideo = document.getElementById("videoPlayer");
+myVideo.play();
+
 setInterval(RandText1, 20);
-video.load();
 var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 var count_changes = 0;
 var istrue = [];
