@@ -1047,7 +1047,7 @@ body, html{
 
 	.main_wrapper .slides_wrapper #time{
 		font-size: 21px;
-		top: 12%;
+		top: 12% !important;
 	}
 
 }
