@@ -1188,3 +1188,9 @@ body, html{
 		top: 2% !important;
 	}
 }
+
+@media all and (min-width: 1400px) and (max-width: 1700px){
+	.main_wrapper .fast_info_wrapper .fast_info .icons_links{
+		bottom: 55%;
+	}
+}
