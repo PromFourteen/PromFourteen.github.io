@@ -1201,3 +1201,16 @@ body, html{
 		bottom: 55%;
 	}
 }*/
+
+@media all and (min-width: 1150px) and (max-width: 1400px){
+	.main_wrapper .slides_wrapper .slide_projects.middle, .main_wrapper .slides_wrapper .slide_video.middle, .main_wrapper .slides_wrapper .slide_about.middle{
+		bottom: -40%;
+	}
+
+	.main_wrapper .slides_wrapper .slide_projects.last, .main_wrapper .slides_wrapper .slide_video.last, .main_wrapper .slides_wrapper .slide_about.last{
+		bottom: -35%;
+	}
+	.main_wrapper .fast_info_wrapper .fast_info .icons_links{
+		bottom: 15%;
+	}
+}
