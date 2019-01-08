@@ -908,11 +908,15 @@ body, html{
 		width: 100%;
 		left: 0;
 	}
-
+	
+	.main_wrapper .slides_wrapper .slide_video.active{
+		bottom: -4% !important;
+	}
+	
 	.main_wrapper .slides_wrapper .slide_video video{
 		transform: scale(1.4);
 		height: 100vh;
-		top: 0;
+		top: 10%;
 	}
 
 	.main_wrapper .slides_wrapper .slide_projects.first, .main_wrapper .slides_wrapper .slide_video.first, .main_wrapper .slides_wrapper .slide_about.first{
@@ -945,6 +949,7 @@ body, html{
 
 	.main_wrapper .slides_wrapper #time{
 		font-size: 21px;
+		top: 12%;
 	}
 
 }
