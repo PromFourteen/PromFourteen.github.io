@@ -253,9 +253,6 @@ $(document).ready(function(){
 
 });
 
-var myVideo = document.getElementById("videoPlayer");
-myVideo.play();
-
 setInterval(RandText1, 20);
 var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 var count_changes = 0;
