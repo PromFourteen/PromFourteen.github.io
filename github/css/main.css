@@ -930,8 +930,11 @@ body, html{
 	.main_wrapper .slides_wrapper .slide_video.hidden, .main_wrapper .slides_wrapper .slide_projects.hidden, .main_wrapper .slides_wrapper .slide_about.hidden{
 		bottom: -200% !important;
 	}
-
-
+	
+	.main_wrapper .fast_info_wrapper .fast_info .icons_links{
+		bottom: 55%;
+	}
+	
 	.main_wrapper .fast_info_wrapper .fast_info .links_nav .paragraph .paragraph_text{
 		font-size: 20px !important;
 	}
