@@ -1189,8 +1189,14 @@ body, html{
 	}
 }
 
-@media all and (min-width: 1400px) and (max-width: 1700px){
+@media all and (min-width: 1400px) and (max-width: 1800px){
 	.main_wrapper .fast_info_wrapper .fast_info .icons_links{
 		bottom: 55%;
 	}
 }
+
+/*@media all and (min-width: 1800px) and (max-width: 1919px){
+	.main_wrapper .fast_info_wrapper .fast_info .icons_links{
+		bottom: 55%;
+	}
+}*/
