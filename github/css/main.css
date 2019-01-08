@@ -985,14 +985,14 @@ body, html{
 
 @media all and (min-height: 660px) and (max-height: 767px){
 	.main_wrapper .slides_wrapper .slide_video.active, .main_wrapper .slides_wrapper .slide_about.active, .main_wrapper .slides_wrapper .slide_projects.active{
-		bottom: 5% !important;
+		bottom: 0;
 		height: 100vh;
 		width: 100%;
 		left: 0;
 	}
 
 	.main_wrapper .slides_wrapper .slide_video.active{
-		bottom: 8%;
+		bottom: -8%;
 		height: 100vh;
 		width: 100%;
 		left: 0;
