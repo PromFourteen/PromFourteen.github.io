@@ -1005,7 +1005,7 @@ body, html{
 	}
 
 	.main_wrapper .slides_wrapper .slide_projects.first, .main_wrapper .slides_wrapper .slide_video.first, .main_wrapper .slides_wrapper .slide_about.first{
-		bottom: -75% !important;	
+		/*bottom: -75% !important;*/	
 	}
 
 	.main_wrapper .slides_wrapper .slide_projects.middle, .main_wrapper .slides_wrapper .slide_video.middle, .main_wrapper .slides_wrapper .slide_about.middle{
