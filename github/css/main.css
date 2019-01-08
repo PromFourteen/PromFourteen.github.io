@@ -1001,7 +1001,7 @@ body, html{
 	.main_wrapper .slides_wrapper .slide_video video{
 		transform: scale(1.4);
 		height: 100vh;
-		top: 1%;
+		top: 0%;
 	}
 
 	.main_wrapper .slides_wrapper .slide_projects.first, .main_wrapper .slides_wrapper .slide_video.first, .main_wrapper .slides_wrapper .slide_about.first{
