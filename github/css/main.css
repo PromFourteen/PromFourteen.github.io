@@ -40,6 +40,115 @@ body, html{
 	background-color: /*#1A161C*/#2D292F;
 }
 
+.main_wrapper .enter_overlay{
+	z-index: 10000;
+	height: 100vh;
+	width: 100%;
+	background-color: #2D292F;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+}
+
+.main_wrapper .enter_overlay .header,
+.main_wrapper .enter_overlay .short_info .name,
+.main_wrapper .enter_overlay .short_info .specialization,
+.main_wrapper .enter_overlay .short_info .bt_startViewing{
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+
+.main_wrapper .enter_overlay{
+	transition: 0.5s;
+}
+
+.main_wrapper .enter_overlay.hidden{
+	opacity: 0;
+}
+
+.main_wrapper .enter_overlay .header{
+	position: absolute;
+	z-index: 1;
+}
+
+.main_wrapper .enter_overlay .header_text{
+	opacity: 0.7;
+	color: #FD971F;
+	font-size: 18px;
+	cursor: default;
+}
+
+.main_wrapper .enter_overlay .short_info{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main_wrapper .enter_overlay .short_info .img{
+	height: 225px;
+	width: 225px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.main_wrapper .enter_overlay .short_info .img img{
+	height: 225px;
+	width: 225px;
+	border-radius: 50%;
+}
+
+.main_wrapper .enter_overlay .short_info .specialization{
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+.main_wrapper .enter_overlay .short_info .name .name_text{
+	font-size: 25px;
+	color: #FD971F;
+	font-weight: bold;
+	cursor: default;
+}
+
+.main_wrapper .enter_overlay .short_info .specialization .specialization_text{
+	font-size: 19px;
+	color: #FD971F;
+	font-weight: bold;
+	cursor: default;
+	opacity: 0.8;
+}
+
+.main_wrapper .enter_overlay .short_info .bt_startViewing{
+	border: 1px solid lightgrey;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 0.5s;
+	width: 200px;
+}
+
+.main_wrapper .enter_overlay .short_info .bt_startViewing:hover .bt_text{
+	color: #FD971F;
+}
+
+.main_wrapper .enter_overlay .short_info .bt_startViewing:hover{
+	border: 1px solid #FD971F;
+}
+
+.main_wrapper .enter_overlay .short_info .bt_startViewing .bt_text{
+	color: lightgrey;
+	padding: 5px;
+	cursor: pointer;
+	font-size: 20px;
+	transition: 0.5s;
+}
+
 .main_wrapper .fast_info_wrapper, .main_wrapper .fast_info_wrapper .fast_info{
 	position: absolute;
 	left: 0;
