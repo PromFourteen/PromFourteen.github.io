@@ -1212,15 +1212,15 @@ body, html{
 
 @media all and (min-width: 1150px) and (max-width: 1400px){
 	.main_wrapper .slides_wrapper .slide_projects.first, .main_wrapper .slides_wrapper .slide_video.first, .main_wrapper .slides_wrapper .slide_about.first{
-		bottom: -55%;	
+		bottom: -60%;	
 	}
 
 	.main_wrapper .slides_wrapper .slide_projects.middle, .main_wrapper .slides_wrapper .slide_video.middle, .main_wrapper .slides_wrapper .slide_about.middle{
-		bottom: -50%;
+		bottom: -55%;
 	}
 
 	.main_wrapper .slides_wrapper .slide_projects.last, .main_wrapper .slides_wrapper .slide_video.last, .main_wrapper .slides_wrapper .slide_about.last{
-		bottom: -45%;
+		bottom: -50%;
 	}
 }
 
